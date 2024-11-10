@@ -10,28 +10,28 @@
   <div class="main-container">
     <h1>Welcome to Our Project</h1>
     
-    <!-- Button to redirect to the team introduction page -->
+    
     <a href="intro.html" class="intro-button">Meet Our Team</a>
   </div>
 
   <div class="container">
     <h1>LDU Factorization Using Elimination Matrices</h1>
 
-    <!-- Dimension Input Section -->
+    
     <div id="dimension-section">
       <label for="dimension">Enter Matrix Dimension (e.g., 3 for a 3x3 matrix):</label>
       <input type="number" id="dimension" min="2" placeholder="Matrix dimension">
       <button onclick="setupMatrix()">Next</button>
     </div>
 
-    <!-- Matrix Elements Input Section -->
+    
     <div id="matrix-elements-section" style="display: none;">
       <h2>Enter Matrix Elements</h2>
       <div id="matrix-fields"></div>
       <button onclick="performLDU()">Perform LDU Factorization</button>
     </div>
 
-    <!-- LDU Steps Display Section -->
+    
     <div id="matrix-step-section" class="matrix-step" style="display: none;">
       <h2>Step-by-Step LDU Decomposition</h2>
       <div id="steps"></div>

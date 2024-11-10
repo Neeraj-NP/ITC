@@ -66,17 +66,17 @@ body {
 
 
 .rounded-button {
-    display: inline-block;      /* Allows padding and margin */
-    padding: 10px 20px;       /* Padding inside the button */
-    background-color: #4CAF50; /* Green background */
-    color: white;              /* Text color */
-    text-align: center;        /* Center the text */
-    text-decoration: none;      /* Remove underline from the link */
-    border-radius: 25px;      /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    display: inline-block;     
+    padding: 10px 20px;       
+    background-color: #4CAF50; 
+    color: white;              
+    text-align: center;        
+    text-decoration: none;      
+    border-radius: 25px;      
+    transition: background-color 0.3s; 
 }
 
 .rounded-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
   
